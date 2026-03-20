@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Big Academy - Chennai</title>
+  <style>
+    /* General Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg,#ff6f61,#ff8a75);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+
+    /* Navbar */
+    nav {
+      background: #1e90ff;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+      text-decoration: underline;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      margin: 20px auto;
+      max-width: 1000px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #1e3c72;
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+    section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    section ul li {
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+
+    /* Testimonials */
+    .testimonial {
+      background: #e8f0fe;
+      padding: 20px;
+      margin: 15px 0;
+      border-left: 6px solid #1e90ff;
+      border-radius: 8px;
+      font-style: italic;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg,#1e90ff,#00bfff);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 10px 10px 0 0;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Images */
+    img {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 15px;
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(135deg,#ff6f61,#ff8a75);
+      color: white;
+      text-align: center;
+      padding: 25px 20px;
+      margin-top: 40px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2em;
+      }
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h1>Dream Big Academy</h1>
+  <p>Your Path to Success Starts Here</p>
+</header>
+
+<!-- Navbar -->
+<nav>
+  <a href="#about">About</a>
+  <a href="#courses">Courses</a>
+  <a href="#facilities">Facilities</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#fees">Fee Structure</a>
+  <a href="#blog">Blog</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- About Section -->
+<section id="about">
+  <h2>About Dream Big Academy</h2>
+  <p>Dream Big Academy is a leading coaching center in Chennai, helping students prepare for exams with expert guidance and structured programs. Our mission is to build confidence and skills for academic success.</p>
+</section>
+
+<!-- Courses Section -->
+<section id="courses">
+  <h2>Our Courses</h2>
+  <ul>
+    <li>School Tuition (CBSE, State Board)</li>
+    <li>Competitive Exam Preparation (NEET, JEE, SSC)</li>
+    <li>Personalized Coaching</li>
+    <li>Online & Offline Classes</li>
+  </ul>
+</section>
+
+<!-- Facilities Section -->
+<section id="facilities">
+  <h2>Our Facilities</h2>
+  <ul>
+    <li>Modern Classrooms</li>
+    <li>Digital Learning Tools</li>
+    <li>Study Space Library</li>
+    <li>Experienced Teachers</li>
+  </ul>
+  <img src="https://via.placeholder.com/1000x400" alt="Classroom">
+  <img src="https://via.placeholder.com/1000x400" alt="Library">
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+  <h2>What Our Students Say</h2>
+  <div class="testimonial">
+    "Dream Big Academy helped me crack my exams with confidence!" - Priya, NEET Aspirant
+  </div>
+  <div class="testimonial">
+    "The teachers are very supportive and the study space is amazing!" - Arjun, JEE Aspirant
+  </div>
+</section>
+
+<!-- Fee Structure Section -->
+<section id="fees">
+  <h2>Fee Structure</h2>
+  <table border="1" cellpadding="10" cellspacing="0" width="100%">
+    <tr style="background-color:#1e90ff; color:white;">
+      <th>Course</th><th>Duration</th><th>Fee</th>
+    </tr>
+    <tr><td>School Tuition</td><td>6 Months</td><td>₹15,000</td></tr>
+    <tr><td>NEET/JEE Coaching</td><td>12 Months</td><td>₹50,000</td></tr>
+    <tr><td>Online Classes</td><td>Monthly</td><td>₹5,000</td></tr>
+  </table>
+</section>
+
+<!-- Blog Section -->
+<section id="blog">
+  <h2>Helpful Blogs</h2>
+  <ul>
+    <li><a href="https://yourusername.github.io/study-space-seo-project" target="_blank">Study Space Library in Chennai – Guide</a></li>
+    <li><a href="https://yourusername.github.io/study-space-seo-project" target="_blank">Why Study Spaces Improve Focus</a></li>
+    <li><a href="https://yourusername.github.io/study-space-seo-project" target="_blank">24-Hour Study Libraries</a></li>
+  </ul>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: contact@dreambigacademy.in</p>
+  <p>Phone: +91 98765 43210</p>
+  <p>Address: 123, Main Road, Chennai, India</p>
+  <a href="mailto:contact@dreambigacademy.in" class="btn">Email Us</a>
+  <a href="#enroll" class="btn">Enroll Now</a>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2026 Dream Big Academy. All rights reserved.
+</footer>
+
+</body>
+</html>
